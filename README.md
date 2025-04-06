@@ -8,7 +8,7 @@ In this Project we use **«Python 3, ipython notebook»** and many libraries lik
 
 ------------------------------
 
-## Work steps 📌👨‍💻
+## Work steps 👨‍💻
 
 ------------------------------
 
