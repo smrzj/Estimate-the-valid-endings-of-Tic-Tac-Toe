@@ -41,25 +41,25 @@ Upon running the simulation, the following results are displayed:
 - **Total boards with exactly 5 pieces**: The total number of boards generated with exactly 5 moves.
 
 Example output:
-Number of valid boards: 1375  
-Ratio of valid boards: 27.5%  
-Number of valid boards with exactly 5 pieces: 321  
-Number of total boards with exactly 5 pieces: 993  
+Number of valid boards: 1422  
+Ratio of valid boards: 28.44% 
+Number of valid boards with exactly 5 pieces: 363  
+Number of total boards with exactly 5 pieces: 1024 
 
 ------------------------------
 
 ## Conclusion 🧐
 As you can see from the results and code outputs:<br>
-out of 5,000 runs, **approximately 27.8% of the total (roughly 1390 cases) were accepted.**
-Additionally, among these 5,000 runs, about 1024 cases correspond to states where 5 tokens are placed on the board.
-meaning roughly 20.48% of all 5,000 game boards we had-of , which only around 321 are valid.
+out of 5,000 runs, **approximately 27.93% of the total (roughly 1396 cases) were accepted.**
+Additionally, among these 5,000 runs, about 1023 cases correspond to states where 5 tokens are placed on the board.
+meaning roughly 20.46% of all 5,000 game boards we had-of , which only around 319 are valid.
 
 If we disregard the game rules and simply calculate all possible configurations for a 3×3 board where each cell can be in one of three states (X, O, ' '), we have 9 cells, each with 3 choices.<br>
 Thus, the total number of possible states is 3<sup>9</sup> , or equivalently, 19683 distinct configurations.<br>
 Now, if we multiply the percentage of valid boards obtained from the above code execution by this total, we conclude that:<br>
-1. **There are approximately 5472 valid game states in total.**
-2. Among them, roughly 1121 correspond to valid states with 5 tokens on the board.
+1. **There are approximately 5497 valid game states in total.**
+2. Among them, roughly 1125 correspond to valid states with 5 tokens on the board.
 
 If you execute the «make_all_5_moves» function, you will observe that the total possible moves for moving 5 tokens (where 3 of them belong to the «X» token and the other 2 moves correspond to the «O» token) equals 1260 .<br>
-**With some calculation, we can see that this closely matches our earlier estimate (approximately 88.97% agreement)**.
+**With some calculation, we can see that this closely matches our earlier estimate (approximately 89.29% agreement)**.
 
